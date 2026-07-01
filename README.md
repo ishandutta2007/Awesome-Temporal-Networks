@@ -99,3 +99,16 @@ To advance this documentation repository, infrastructure workspace, or algorithm
 * Generate a **comprehensive Markdown table** explicitly comparing LSTMs, TCNs, Transformers, and Selective State Space Models (Mamba) across training parallelization limits, inference memory complexity, path length boundaries, and sampling capabilities.
 * Establish a **performance profiling harness using Triton** to measure the exact wall-clock throughput and VRAM saving bounds achieved when compiling parallel associative scan kernels directly into fast registers.
 
+---
+
+## Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Temporal-Networks&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Temporal-Networks&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Temporal-Networks&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Temporal-Networks&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
+
