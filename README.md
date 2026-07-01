@@ -1,11 +1,15 @@
 # Awesome-Temporal-Networks
-## Temporal Networks in AI: History, Progression, Variants, & Applications
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Temporal Networks Banner" width="100%">
+</p>
+
+## 🕒 Temporal Networks in AI: History, Progression, Variants, & Applications
 
 Temporal Networks—broadly spanning Time-Series networks, Dynamic Graphs, and Spatio-Temporal systems—represent a specialized family of neural network architectures designed to process data that evolves dynamically over time. In standard deep learning, static models (like standard Feed-Forward networks or basic CNNs) assume that data samples are independent and identically distributed (i.i.g.). Temporal Networks break this assumption by treating time as an explicit structural dimension. By mapping chronological dependencies, hidden trajectories, and shifting state variables, Temporal Networks allow AI systems to model continuous physical waveforms, track multi-agent interactions across fluid graphs, and execute high-frequency sequential forecasting.
 
 ---
 
-## 1. The Macro Chronological Evolution
+## 📅 1. The Macro Chronological Evolution
 
 The technical implementation of temporal modeling has transitioned from rigid, sequential recurrence loops to gated memory cells, parallelized attention patches, and hardware-fused continuous state-space operators.
 
@@ -25,7 +29,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Algorithmic Variants
+## ⚙️ 2. Core Functional & Algorithmic Variants
 
 Temporal Networks are strictly categorized based on whether they process data over isolated indices, geometric structures, or continuous waveforms.
 
@@ -38,7 +42,7 @@ Temporal Networks are strictly categorized based on whether they process data ov
 
 ---
 
-## 3. High-Capacity Architectural Component Types
+## 🧩 3. High-Capacity Architectural Component Types
 
 To scale up temporal processing precision without blowing up VRAM budgets, ML engineering stacks deploy specialized time-tracking layers.
 
@@ -50,7 +54,7 @@ To scale up temporal processing precision without blowing up VRAM budgets, ML en
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## ⚡ 4. Production Engineering Challenges & Hardware Solutions
 
 Deploying high-frequency Temporal Networks across enterprise industrial architectures introduces intense memory-bus and data-sync bottlenecks.
 
@@ -61,7 +65,7 @@ Deploying high-frequency Temporal Networks across enterprise industrial architec
 
 ---
 
-## 5. Frontier Real-World AI Applications
+## 🚀 5. Frontier Real-World AI Applications
 
 | Application Field | Year | Paper Link | Application Details |
 | :--- | :--- | :--- | :--- |
@@ -71,7 +75,7 @@ Deploying high-frequency Temporal Networks across enterprise industrial architec
 
 ---
 
-## References
+## 📚 References
 1. Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. *Neural Computation*, 9(8), 1735-1780.
 2. Bai, S., Kolter, J. Z., & Koltun, V. (2018). An empirical evaluation of generic convolutional and recurrent networks for sequence modeling. *arXiv preprint arXiv:1803.01271*.
 3. Chen, R. T., et al. (2018). Neural ordinary differential equations. *Advances in Neural Information Processing Systems (NeurIPS)*, 31.
