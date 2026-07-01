@@ -9,8 +9,11 @@ Temporal Networks—broadly spanning Time-Series networks, Dynamic Graphs, and S
 
 The technical implementation of temporal modeling has transitioned from rigid, sequential recurrence loops to gated memory cells, parallelized attention patches, and hardware-fused continuous state-space operators.
 
-```
-[Sequential Recurrence (RNN/LSTM, 1990s)] ───> [Spatio-Temporal Attention (ViT, 2020)] ───> [Continuous State Spaces (SSMs, 2024+)](Heavy Gradient Vanishing Bottlenecks)          (Quadratic O(N²) Time-Collapsing Masks)        (Linear O(N) Tracking / Constant Caching)
+```mermaid
+flowchart LR
+    A["Sequential Recurrence (RNN/LSTM, 1990s)<br/>(Heavy Gradient Vanishing Bottlenecks)"]
+    --> B["Spatio-Temporal Attention (ViT, 2020)<br/>(Quadratic O(N²) Attention Scaling)"]
+    --> C["Continuous State Spaces (SSMs, 2024+)<br/>(Linear O(N) Sequence Processing & Constant-Size State)"]
 ```
 
 *   **The Sequential Recurrence Era (RNN / LSTM, ~1990s–2017)**
