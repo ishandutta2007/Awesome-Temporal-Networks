@@ -29,20 +29,20 @@ The technical implementation of temporal modeling has transitioned from rigid, s
 
 Temporal Networks are strictly categorized based on whether they process data over isolated indices, geometric structures, or continuous waveforms.
 
-### A. Discrete Sequence Networks (RNNs / LSTMs / GRUs)
-*   **Mechanism:** Unrolls a sequential computational graph over a fixed set of time-steps, utilizing Backpropagation Through Time (BPTT) to update shared recurrence parameters.
-*   **Pros:** Compact inference memory foot-print, but suffers from low GPU compute saturation due to its non-parallelizable nature.
+- ### A. Discrete Sequence Networks (RNNs / LSTMs / GRUs)
+	*   **Mechanism:** Unrolls a sequential computational graph over a fixed set of time-steps, utilizing Backpropagation Through Time (BPTT) to update shared recurrence parameters.
+	*   **Pros:** Compact inference memory foot-print, but suffers from low GPU compute saturation due to its non-parallelizable nature.
 
-### B. Spatio-Temporal Graph Neural Networks (ST-GNNs)
-*   **Mechanism:** Combines spatial Graph Neural Networks with temporal modeling layers. It tracks how node features and edge connectivity matrices evolve dynamically across time.
-*   **Application:** Standard layout for traffic flow optimization, social network connection forecasting, and multi-agent financial fraud tracking.
+- ### B. Spatio-Temporal Graph Neural Networks (ST-GNNs)
+	*   **Mechanism:** Combines spatial Graph Neural Networks with temporal modeling layers. It tracks how node features and edge connectivity matrices evolve dynamically across time.
+	*   **Application:** Standard layout for traffic flow optimization, social network connection forecasting, and multi-agent financial fraud tracking.
 
-### C. Temporal Convolutional Networks (TCNs)
-*   **Mechanism:** Replaces recurrence with 1D causal, dilated convolutional layers. The kernel matrix injects regular mathematical gaps to expand its effective receptive field backward into history without adding parameters.
-*   **Pros:** Fully parallelizable during training loops, avoiding the vanishing gradient traps of early RNNs.
+- ### C. Temporal Convolutional Networks (TCNs)
+	*   **Mechanism:** Replaces recurrence with 1D causal, dilated convolutional layers. The kernel matrix injects regular mathematical gaps to expand its effective receptive field backward into history without adding parameters.
+	*   **Pros:** Fully parallelizable during training loops, avoiding the vanishing gradient traps of early RNNs.
 
-### D. Continuous-Time Neural ODEs / Selective SSMs
-*   **Mechanism:** Abandons discrete step intervals. It treats temporal transitions as a continuous-time vector field solver, using data-dependent discretization parameters ($\Delta$) to sample raw wave inputs dynamically.
+- ### D. Continuous-Time Neural ODEs / Selective SSMs
+	*   **Mechanism:** Abandons discrete step intervals. It treats temporal transitions as a continuous-time vector field solver, using data-dependent discretization parameters ($\Delta$) to sample raw wave inputs dynamically.
 
 ---
 
