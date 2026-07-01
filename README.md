@@ -1,6 +1,15 @@
+<!--
+SEO Meta Description: A curated list of awesome temporal networks, time-series forecasting models, spatio-temporal graph neural networks (ST-GNNs), continuous-time neural ODEs, and state space models (SSMs/Mamba) in deep learning.
+Keywords: Temporal Networks, AI, Time-Series Forecasting, Spatio-Temporal GNNs, State Space Models, Mamba, Neural ODEs, Deep Learning, Recurrent Neural Networks, Transformers
+-->
+
 # Awesome-Temporal-Networks
 <p align="center">
   <img src="assets/banner.svg" alt="Awesome Temporal Networks Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 </p>
 
 ## 🕒 Temporal Networks in AI: History, Progression, Variants, & Applications
